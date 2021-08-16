@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>つくばのお店紹介</title>
+<style type="text/css">
+	body {
+    	animation: fadeIn 1s ease 0s 1 normal;
+    	-webkit-animation: fadeIn 1s ease 0s 1 normal;
+	}
+
+	@keyframes fadeIn {
+    	0% {opacity: 0}
+    	100% {opacity: 1}
+	}
+
+	@-webkit-keyframes fadeIn {
+    	0% {opacity: 0}
+    	100% {opacity: 1}
+	}
+	
+	#Page1 {
+		position: absolute;
+		width: 390px;
+		height: 1100px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#background {
+		position: absolute;
+		width: 390px;
+		height: 1029px;
+		left: 0px;
+		top: 71px;
+		overflow: visible;
+		background-repeat: repeat-y;
+    	background-image: url("BG.png");
+	}
+	#titlebox {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 390px;
+		height: 71px;
+		overflow: visible;
+		background-color: rgba(0,177,255,0.161);
+	}
+	#titlelogo {
+		position: absolute;
+		width: 66px;
+		height: 59px;
+		left: 23px;
+		top: 7px;
+		overflow: visible;
+	}
+	#titletext {
+		left: 112px;
+		top: 12px;
+		position: absolute;
+		overflow: visible;
+		width: 199px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Meiryo;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		color: rgba(112,112,112,1);
+	}
+	.box {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		width: 180px;
+		height: 220px;
+		background-color: rgba(255,216,0,0.3);
+		position: absolute;
+		overflow: visible;
+		border-radius: 10px;
+	}
+	.text1 {
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Meiryo;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 19px;
+		color: rgba(112,112,112,1);
+	}
+	.text2 {
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 20px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Meiryo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(112,112,112,1);
+	}
+	.text3 {
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Meiryo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#backbutton {
+		position: absolute;
+		width: 66px;
+		height: 50px;
+		left: 13px;
+		top: 7px;
+		overflow: visible;		
+	}
+	.mapsmall {
+		postion: absolute;
+		width: 50px;
+		height: 50px;
+		transition: all .2s ease-out;
+	}
+	.mapsmall:hover {
+		transform: scale(1.2);
+	}
+	.path1 {
+		overflow: visible;
+		position: absolute;
+		width: 130px;
+		height: 20px;
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.imgbox {
+		position: absolute;
+		width: 148px;
+		height: 108px;
+		left: 15px;
+		top: 15px;
+	}
+
+</style>
+</head>
+
+<body>
+	<div id="Page1">
+		<div id="titlebox"> 
+			<img id="titlelogo" src="./IMG_0005.png" srcset="./IMG_0005.png 1x, ./IMG_0005@2x.png 2x"/>
+			<div id="titletext"><span>食べること大好き!<br/>井上夫婦のおすすめ</span></div>
+		</div>
+		<div id="background">
+			<div id="backbutton">
+				<a href="./index.html"><img class="mapsmall" src="./Map1_small.png" srcset="./Map1_small.png 1x, ./Map1_small@2x.png 2x"/></a>
+				<svg class="path1" style="width: 15; height: 30; top: 10; left: 50" viewBox="0,0,25,50">
+					<a href="./index.html"><path d="M 25 0 L 0 25 L 25 50"/></a>
+				</svg>
+			</div>
+			<div class="box" style="left: 6px; top: 65px">
+				<a href="http://ginparou.com/">
+					<img class="imgbox" src="./ramen.png" srcset="./ramen.png 1x, ./ramen@2x.png 2x"/>
+				</a>
+				<div class="text1" style="top: 130px; left: 10px">銀波露</div>
+				<div class="text2" style="top: 155px; left: 10px">こってりとした<br>味噌ラーメン なぜか<br>また食べたくなる</div>
+		    </div>
+		  <div class="box" style="left: 195px; top: 65px">
+			  　<a href="http://www.sapporo634.com/">
+					<img class="imgbox" src="./musashi.png" srcset="./musashi.png 1x, ./musashi@2x.png 2x"/>
+			  　</a>
+				<div class="text1" style="top: 130px; left: 10px">札幌ラーメン 武蔵</div>
+				<div class="text2" style="top: 155px; left: 10px">黄色い縮れ麺が特徴<br>1990年の開業以来<br>通ってます</div>
+		  </div>
+		  <div class="box" style="left: 6px; top: 300px">
+			  　<a href="https://www.tondenfarm.co.jp/">
+					<img class="imgbox" src="./tonden.png" srcset="./tonden.png 1x, ./tonden@2x.png 2x"/>
+			    </a>
+				<div class="text1" style="top: 130px; left: 10px">トンデンファーム</div>
+				<div class="text2" style="top: 155px; left: 10px">おいしいベーコン,ソー<br>セージ,特に「焼牛」<br>がおすすめ</div>
+		  </div>
+		  <div class="box" style="left: 195px; top: 300px">
+			    <a href="https://www.haskapp.co.jp/">
+					<img class="imgbox" src="./taiyou.png" srcset="./taiyou.png 1x, ./taiyou@2x.png 2x"/>
+				</a>
+				<div class="text1" style="top: 130px; left: 10px">morimoto</div>
+				<div class="text2" style="top: 155px; left: 10px">色とりどりのスイーツ<br>に目移りしちゃう北海<br>道発祥のスイーツ工房</div>
+		  </div>
+		</div>
+    </div>
+</body>
+</html>

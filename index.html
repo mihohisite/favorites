@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>食べること大好き！井上夫婦のおすすめ</title>
+	
+<style type="text/css">
+	body {
+    	animation: fadeIn 1s ease 0s 1 normal;
+    	-webkit-animation: fadeIn 1s ease 0s 1 normal;
+	}
+
+	@keyframes fadeIn {
+    	0% {opacity: 0}
+    	100% {opacity: 1}
+	}
+
+	@-webkit-keyframes fadeIn {
+    	0% {opacity: 0}
+    	100% {opacity: 1}
+	}
+	
+	#Page1 {
+		position: absolute;
+		width: 390px;
+		height: 1100px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#background {
+		position: absolute;
+		width: 390px;
+		height: 1029px;
+		left: 0px;
+		top: 71px;
+		overflow: visible;
+		background-repeat: repeat-y;
+    	background-image: url("BG.png");
+	}
+	#titlebox {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 390px;
+		height: 71px;
+		overflow: visible;
+		background-color: rgba(0,177,255,0.161);
+	}
+	#titlelogo {
+		position: absolute;
+		width: 66px;
+		height: 59px;
+		left: 23px;
+		top: 7px;
+		overflow: visible;
+	}
+	#titletext {
+		left: 112px;
+		top: 12px;
+		position: absolute;
+		overflow: visible;
+		width: 199px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Meiryo;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		color: rgba(112,112,112,1);
+	}
+	.bluebox {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		background-color: rgba(214,237,255,0.78);
+		border-radius: 20px;
+	}
+	#portrait1{
+		position: absolute;
+		overflow: visible;
+		left: 160px;
+		top: 43px;
+		width: 171px;
+		height: 209px;
+	}
+	#portrait2{
+		position: absolute;
+		overflow: visible;
+		left: 10px;
+		top: 330px;
+		width: 171px;
+		height: 209px;
+	}
+	#photo1{
+		position: absolute;
+		overflow: visible;
+		left: 90px;
+		top: 230px;
+		width: 154px;
+		height: 115px;
+	}
+	.text1 {
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Meiryo;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	.text2 {
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Meiryo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	.text3 {
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Meiryo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	.icon{
+		position: absolute;
+		overflow: visible;
+	}
+	#map {
+		position: absolute;
+		overflow: visible;
+		left: 10px;
+		top: 50px;
+		width: 310px;
+		height: 310px;		
+	}
+	.path0 {
+		overflow: visible;
+		position: absolute;
+		width: 130px;
+		height: 20px;
+		fill: transparent;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;		
+	}
+	.path1 {
+		overflow: visible;
+		position: absolute;
+		width: 90px;
+		height: 60px;
+		fill: rgba(255,255,255,1);
+		stroke: rgba(0,0,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	}
+	.star {
+		overflow: visible;
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+		transition: all .2s ease-out;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	}
+	.star:hover {
+		transform: scale(1.5);
+	}
+
+</style>
+</head>
+
+<body>
+	<div id="Page1">
+		<div id="titlebox"> 
+			<img id="titlelogo" src="./IMG_0005.png" srcset="./IMG_0005.png 1x, ./IMG_0005@2x.png 2x"/> 
+			<div id="titletext"><span>食べること大好き!<br/>井上夫婦のおすすめ</span></div>
+		</div>
+		<div id="background">
+			<div class="bluebox" style="width: 360px;height: 550px;left: 13px;top: 20px">
+			  	<div class="icon" style="top: 20px; left: 10px"><img src="./coffee.png" srcset="./coffee.png 1x, ./coffee@2x.png 2x"/></div>
+			  	<div class="text1" style="top: 100px; left: 10px"><span>Hisashi</span></div>
+			  	<div class="text2" style="top: 130px; left: 10px"><span>北海道江別市出身</span></div>
+		      	<img id="portrait1" src="./IMG_7286.png" srcset="./IMG_7286.png 1x, ./IMG_7286@2x.png 2x"/>
+				<img id="photo1" src="./IMG_8216_3.png" srcset="./IMG_8216_3.png 1x, ./IMG_8216_3@2x.png 2x"/>
+				<div class="text2" style="top: 270px; left: 10px"><span>Now in<br>つくば</span></div>
+				<div class="text1" style="top: 390px; left: 190px"><span>Miho</span></div>
+				<div class="text2" style="top: 420px; left: 190px"><span>兵庫県赤穂市出身</span></div>
+		      	<img id="portrait2" src="./IMG_8140_3_mod.png" srcset="./IMG_8140_3_mod.png 1x, ./IMG_8140_3_mod@2x.png 2x"/>
+			  	<img class="icon" style="top: 480px; left: 280px" src="./Cake.png" srcset="./Cake.png 1x, ./Cake@2x.png 2x"/>
+		    </div>
+
+			<div class="bluebox" style="width: 360px;height: 400px;left: 13px;top: 600px">
+				<img id="map" src="./Map1.png"/>
+			  	<div class="text1" style="top: 90px; left: 100px"><span><a href="shoplist3.html">北海道</a></span></div>
+				<div class="text1" style="top: 210px; left: 25px"><span><a href="shoplist2.html">赤穂市</a></span></div>
+				<div class="text1" style="top: 240px; left: 270px"><span><a href="shoplist1.html">つくば市</a></span></div>
+			  	<img class="icon" style="top: 300px; left: 210px" src="./IMG_5977.png" srcset="./IMG_5977.png 1x, ./IMG_5977@2x.png 2x"/>
+				<div class="icon" style="top: 60px; left: 10px"><img src="./onigiri.png" srcset="./onigiri.png 1x, ./onigiri@2x.png 2x"/></div>
+				<svg class="path0" style="top: 110px; left: 90px" viewBox="0, 0, 130, 20">
+				  <path d="M 0 0 L 100 0 L 130 20" />
+				</svg>			  	
+				<svg class="path0" style="top: 230px; left: 10px" viewBox="0, 0, 130, 20">
+				  <path d="M 0 0 L 100 0 L 130 20" />
+				</svg>			  	
+				<svg class="path0" style="top: 260px; left: 230px" viewBox="0, 0, 130, 20">
+				  <path d="M 0 20 L 30 0 L 130 0" />
+				</svg>
+				<svg class="path1" style="top: 260px; left: 270px" viewBox="0, 0, 71, 40">
+					<path d="M 35.5 0 C 55.1 0 71.5 6.3 71.2 17.9 C 71.0 29.5 58.7 31.3 39.1 31.3 C 20.0 30.8 20.0 27.6 12.4 32.4 C 13.5 25.1 6.0 26.8 4.6 17.9 C 4.6 6.3 15.9 0 35.5 0 Z"/>
+				</svg>
+				<div class="text3" style="top: 275px; left: 281px"><span>Let's try!</span></div>
+				<a id="ayellow" href="./shoplist3.html">
+					<svg class="star" style="top: 120px; left: 210px; fill: rgba(255,214,71,1.00);" viewBox="112,624,24,24">
+						<path d="M 112 632 L 121 632 L 124 624 L 127 632 L 136 632 L 128 637 L 132 645 L 124 640 L 116 645 L 120 637 L 112 632 Z"/>
+					</svg>
+				</a>
+				<a id="agreen" href="./shoplist2.html">
+					<svg class="star" style="top: 240px; left: 130px; fill: rgba(108,255,72,1.00);" viewBox="112,624,24,24">
+						<path d="M 112 632 L 121 632 L 124 624 L 127 632 L 136 632 L 128 637 L 132 645 L 124 640 L 116 645 L 120 637 L 112 632 Z"/>
+					</svg>
+				</a>
+				<a id="ared" href="./shoplist1.html">
+					<svg class="star" style="top: 265px; left: 220px; fill: rgba(255,36,40,1.00);" viewBox="112,624,24,24">
+						<path d="M 112 632 L 121 632 L 124 624 L 127 632 L 136 632 L 128 637 L 132 645 L 124 640 L 116 645 L 120 637 L 112 632 Z"/>
+					</svg>
+				</a>
+		    </div>
+		</div>
+    </div>
+</body>
+</html>
